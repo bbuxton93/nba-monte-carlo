@@ -4,5 +4,6 @@
         "L016",
         "L031",
         "L034"
-    ]
+    ],
+    "dbt.dbtPythonPathOverride": "/home/bbuxton/meltano-projects/nba-monte-carlo/.meltano/utilities/dbt-duckdb/venv/lib/python3.8"
 }

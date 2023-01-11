@@ -1,2 +1,2 @@
 SELECT *
-FROM '/workspaces/nba-monte-carlo/data/data_catalog/psa/team_ratings/*.parquet'
+FROM '/home/bbuxton/meltano-projects/nba-monte-carlo/data/data_catalog/psa/team_ratings/*.parquet'

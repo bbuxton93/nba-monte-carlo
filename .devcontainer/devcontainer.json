@@ -22,19 +22,20 @@
         // any other settings go here
     },
     "extensions": [
-        "ms-python.python",
-        "ms-python.vscode-pylance",
-        "redhat.vscode-yaml",
-        "ms-vscode.makefile-tools",
-        "EditorConfig.EditorConfig",
-        "samuelcolvin.jinjahtml",
-        "github.vscode-pull-request-github",
-        "eamodio.gitlens",
-        "visualstudioexptteam.vscodeintellicode",
-        "bastienboutonnet.vscode-dbt",
-        "vivaxy.vscode-conventional-commits",
-        "mechatroner.rainbow-csv"
-    ],
+		"ms-python.python",
+		"ms-python.vscode-pylance",
+		"redhat.vscode-yaml",
+		"ms-vscode.makefile-tools",
+		"EditorConfig.EditorConfig",
+		"samuelcolvin.jinjahtml",
+		"github.vscode-pull-request-github",
+		"eamodio.gitlens",
+		"visualstudioexptteam.vscodeintellicode",
+		"bastienboutonnet.vscode-dbt",
+		"vivaxy.vscode-conventional-commits",
+		"mechatroner.rainbow-csv",
+		"innoverio.vscode-dbt-power-user"
+	],
     "features": {
         //see https://github.com/devcontainers/features/tree/main/src/docker-in-docker for details on below
         "ghcr.io/devcontainers/features/docker-in-docker:1":{}
