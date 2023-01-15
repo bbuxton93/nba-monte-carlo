@@ -50,5 +50,25 @@ sources:
         description: CFB teams and details
       - name: elo
         description: CFB elo per season        
-                                           
+  - name: ff_prep
+    schema: prep
+    meta: 
+      external_location: "{{ env_var('MELTANO_PROJECT_ROOT') }}/data/data_catalog/raw/{identifier}.parquet"
+    tables:
+      - name: activities
+        description: league activities each week     
+      - name: draft
+        description: draft order
+      - name: free_agent_box
+        description: box scores each week for top 10 free agents by position
+      - name: matchup_results
+        description: results of weekly matchups
+      - name: player_box
+        description: weekly player box scores   
+      - name: player_season
+        description: aggregate player season stats/info
+      - name: results
+        description: results of games
+      - name: teams
+        description: team level info                                            
 
