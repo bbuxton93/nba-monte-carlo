@@ -1,6 +1,50 @@
 version: 2
 
 models:
+  - name: activities
+    columns:
+      - name: activity_key
+        tests:
+          - unique
+          - not_null     
+  - name: draft
+    columns:
+      - name: player_id
+        tests:
+          - unique
+          - not_null
+  - name: free_agent_box
+    columns:
+      - name: free_agent_box_key
+        tests:
+          - unique
+          - not_null          
+  - name: matchup_results
+    columns:
+      - name: matchup_key
+        tests:
+          - unique
+          - not_null  
+  - name: player_box
+    columns:
+      - name: player_box_key
+        tests:
+          - unique
+          - not_null  
+  - name: player_season
+    columns:
+      - name: player_id
+        tests:
+          - unique
+          - not_null 
+  - name: results
+    columns:
+      - name: results_key
+        tests:
+          - unique
+          - not_null 
+  - name: teams
+    description: team level info   
   - name: prep_nba_elo_latest
     tests:
       - empty_table
